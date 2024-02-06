@@ -537,7 +537,10 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
             _imagePathController.clear();
             _pdfPathController.clear();
             _selectedFilePath = null;
+            _image = null;
+            _pdf = null;
             _selectedGasType = 'Select';
+            _agentNameController.clear();
             setState(() {
               errorPhoneNo = null; // Reset phone number error
             });
