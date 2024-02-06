@@ -1,4 +1,3 @@
-
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
@@ -176,8 +175,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                             'Attachment* (Aadhar Card/Driving License/Ration Card/Voter ID/Passport) *',
                             style: TextStyle(
                               color: Colors.green,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 14.0,
+                              fontWeight: FontWeight.w500,
+                              fontSize: 12.0,
                             ),
                           ),
                           CustomButton(
@@ -189,8 +188,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                             'Please upload a valid image (jpeg/png) or pdf file. Size should not be more than 5MB.',
                             style: TextStyle(
                               color: Colors.red,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 12.0,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 10.0,
                             ),
                           ),
                         ],
@@ -200,7 +199,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 ],
               ),
             ),
-            const SizedBox(height: 16.0),
+            const SizedBox(height: 10.0),
             Center(
               child: Container(
                 decoration: BoxDecoration(
@@ -243,7 +242,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 ),
               ),
             ),
-            const SizedBox(height: 16.0),
+            const SizedBox(height: 10.0),
             SizedBox(
               width: double.infinity, // Make the button full width
               child: ElevatedButton(

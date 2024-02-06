@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 
 Container GradientContainer(Size size) {
   var secondaryColor = Colors.green[400]; // Replace with your desired color
-  var primaryColor = Colors.yellow[400]; // Replace with your desired color
+  var primaryColor = Colors.yellow[400]!; // Replace with your desired color
 
   return Container(
-    height: size.height * .2,
+    height: 120,
     width: size.width,
     decoration: const BoxDecoration(
         borderRadius: BorderRadius.only(
