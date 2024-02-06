@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       home: SplashScreen(
         duration: const Duration(
-            seconds: 8), // Set the duration for your splash screen
+            seconds: 4), // Set the duration for your splash screen
         nextPage: WillPopScope(
           onWillPop: () async => false, // Disable back button
           child: const MyHomePage(title: 'PBGPL'),
